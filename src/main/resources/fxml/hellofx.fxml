@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="334.01409912109375" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <ImageView fitHeight="290.2250005349159" fitWidth="327.0140838623047" layoutX="3.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../images/fatcat.jpg" />
+      </image>
+    </ImageView>
+    <Text layoutX="58.0" layoutY="382.0" strokeType="OUTSIDE" strokeWidth="0.0" text="I am the Fat Cat. Feed me...again." />
+    <Text layoutX="137.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hello FX." />
+  </children>
+</AnchorPane>
