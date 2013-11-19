@@ -15,14 +15,14 @@ Some links for documentation can be found at:
 
 ## Build a Native App
 
-1. `mvn clean jfx:native`
-2. Look for the the installer in `(project\target\jfx\bundles`.
+1. `mvn clean jfx:native` (or `mvn clean install` ... the native packaging has been paired to the verify Maven phase)
+2. Look for the the installer, DMG, or RPM in `(project)\target\jfx\bundles`.
 
 This will build an installer for whatever platform you are building on. Building on a Mac will produce a Mac app. Building on a Windows PC will produce a Windows app.
 
 ## Building a Windows Installer and Native Application EXE
 
-[From what I've read] Building a Mac DMG or Linux RPM works straight of the box. However, Windows requires either WiX for MSI creation or Inno Setup for an EXE-based installer (both install an EXE for the JavaFX application along with a packaged JRE).
+Building a Mac DMG or Linux RPM works straight of the box. However, Windows requires either WiX for MSI creation or Inno Setup for an EXE-based installer (both install an EXE for the JavaFX application along with a packaged JRE).
 
 Both don't need to be installed, just whichever one gets you to your desired installer format.
 
