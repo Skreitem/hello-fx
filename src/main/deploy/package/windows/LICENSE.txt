@@ -1,5 +1,0 @@
-This is a sample license file bundled in for the installer. 
-
-If you agree to it, the fat cat will smile upon you.
-
-If you don't agree, you will never understand this joke (and really, that may not be a bad thing).
